@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prana Devoir</title>
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="styes.css">
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icônes Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- 🔶 Barre de livraison gratuite en haut -->
+  <div class="top-bar">
+    Livraison gratuite à partir de 59$* au Québec.
+  </div>
+
+  <!-- 🟥 En-tête principal -->
+  <header class="main-header">
+    <div class="container-header">
+      <!-- 📌 Liens de navigation (gauche) -->
+      <div class="header-left">
+        <a href="#">TOUT ACHETER</a>
+        <a href="#">RECETTES</a>
+        <a href="#">QUI SOMMES-NOUS</a>
+      </div>
+
+      <!-- 🎯 Logo centré -->
+      <div class="header-logo">
+        <img src="image/PRANAA.avif" alt="Logo Prana">
+      </div>
+
+      <!-- 🧭 Icônes à droite + Langue + Sélecteur de pays -->
+      <div class="header-right">
+        <a href="#"><i class="bi bi-geo-alt"></i></a>
+        <a href="#"><i class="bi bi-person"></i></a>
+        <a href="#"><i class="bi bi-search"></i></a>
+        <a href="#"><i class="bi bi-bag"></i></a>
+        <span class="lang">FR</span>
+
+        <!-- 🌍 Sélecteur de pays -->
+        <div class="country-selector">
+          <label for="country">Expédition vers :</label>
+          <select id="country" name="country">
+            <option value="ca">🇨🇦 Canada</option>
+            <option value="us">🇺🇸 États-Unis</option>
+            <option value="fr">🇫🇷 France</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 🟦 Section de bannière / Hero -->
+  <section class="hero">
+    <a href="#" class="btn">Acheter maintenant</a>
+  </section>
+
+  <!-- Section produits mise en page décor style Prana -->
+  <div class="products-container ">
+    <h1>Remplissez votre garde-manger avec nos ingrédients biologiques !</h1>
+    <div class="product-grid">
+      <!-- Produit 1 -->
+      <div class="product">
+        <img src="image/a (1).webp" alt="Dates Medjool biologiques">
+        <p>Dattes Medjool biologiques<br>À partir de 9,99 $</p>
+      </div>
+      <!-- Produit 2 -->
+      <div class="product">
+        <img src="image/b.webp" alt="Noix de pécan biologiques">
+        <p>Noix de pécan biologiques<br>À partir de 12,99 $</p>
+      </div>
+      <!-- Produit 3 -->
+      <div class="product">
+        <img src="image/c.webp" alt="Tahini - Beurre de sésame biologique">
+        <p>Tahini – Beurre de sésame biologique<br>19,99 $</p>
+      </div>
+      <!-- Produit 4 -->
+      <div class="product">
+        <img src="image/d.webp" alt="Canneberges séchées biologiques">
+        <p>Canneberges séchées biologiques<br>29,99 $</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voir tous les produits -->
+  <section class="see-all">
+    <button class="btn-see-all">Voir tous les produits</button>
+  </section>
+
+
+  <div class="product-cards">
+        <!-- Carte 2 -->
+        <div class="product-card">
+            <img src="image/bbbb.jpg" alt="Cuisinez comme un chef">
+            <h3>Cuisinez comme un chef</h3>
+            <a href="#" class="button">Voir les produits</a>
+        </div>
+        <!-- Carte 1 -->
+        <div class="product-card">
+            <img src="image/bb (1).jpg" alt="Réveillez vos papilles">
+            <h3>Réveillez vos papilles</h3>
+            <a href="#" class="button">Voir les produits</a>
+        </div>
+
+        <!-- Carte 3 -->
+        <div class="product-card">
+            <img src="image/bb (2).jpg" alt="Transformez votre pause goûter">
+            <h3>Transformez votre pause goûter</h3>
+            <a href="#" class="button">Voir les produits</a>
+        </div>
+    </div>
+
+
+   <div class="instagram-section">
+        <h2 class="instagram-title">Suivez-nous sur Instagram</h2>
+        
+        <div class="carousel-container">
+            <div class="carousel-wrapper" id="carouselWrapper">
+                <!-- Slide 1 - Vidéo a -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/a.mp4" type="video/mp4">
+                        <source src="video/a.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 2 - Vidéo b -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/b.mp4" type="video/mp4">
+                        <source src="video/b.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 3 - Vidéo c -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/c.mp4" type="video/mp4">
+                        <source src="video/c.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 4 - Vidéo d -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/d.mp4" type="video/mp4">
+                        <source src="video/d.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 5 - Vidéo f -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/f.mp4" type="video/mp4">
+                        <source src="video/f.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 6 - Vidéo g -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/g.mp4" type="video/mp4">
+                        <source src="video/g.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 7 - Vidéo h -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/h.mp4" type="video/mp4">
+                        <source src="video/h.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 8 - Vidéo i -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/i.mp4" type="video/mp4">
+                        <source src="video/i.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 9 - Vidéo j -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/j.mp4" type="video/mp4">
+                        <source src="video/j.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 10 - Vidéo k -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/k.mp4" type="video/mp4">
+                        <source src="video/k.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 11 - Vidéo m -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/l (4).mp4" type="video/mp4">
+                        <source src="video/l (4).mp4" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 12 - Vidéo n -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/a.mp4" type="video/mp4">
+                        <source src="video/a.mp4" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 13 - Vidéo o -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/l (2).mp4" type="video/mp4">
+                        <source src="video/l (2).mp4" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 14 - Vidéo p -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/h.mp4" type="video/mp4">
+                        <source src="video/h.mp4" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 15 - Vidéo q -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/a.mp4" type="video/mp4">
+                        <source src="video/a.webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+                
+                <!-- Slide 16 - Vidéo r -->
+                <div class="carousel-slide">
+                    <video class="carousel-video" muted loop>
+                        <source src="video/l (4).mp4" type="video/mp4">
+                        <source src="video/l (4).webm" type="video/webm">
+                        Votre navigateur ne supporte pas les vidéos HTML5.
+                    </video>
+                </div>
+            </div>
+            
+            <!-- Boutons de navigation -->
+            <button class="carousel-nav prev" id="prevBtn">
+                <svg viewBox="0 0 24 24">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            
+            <button class="carousel-nav next" id="nextBtn">
+                <svg viewBox="0 0 24 24">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Indicateurs -->
+        <div class="carousel-indicators" id="indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
+    </div>
+
+
+
+    <div class="testimonials-section">
+        <h1 class="section-title">laissez les clients parler pour nous</h1>
+        <h2 class="section-subtitle">à partir de 6406 avis</h2>
+    </div>
+
+    <div class="slider">
+        <div class="track">
+
+            <div class="testimonial-card">
+                <img src="image/a.webp" alt="Génial pour le Kéfir" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Génial pour le Kéfir</h3>
+                <p class="testimonial-text">Je l'utilise pour la fabrication de...</p>
+                <p class="author">Liette Labrie</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/b.webp" alt="Amoureux du chocolat" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Amoureux du chocolat</h3>
+                <p class="testimonial-text">Pour des amoureux du chocolat, ç...</p>
+                <p class="author">Chantal Myre</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/c.webp" alt="Si bon" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Si bon</h3>
+                <p class="testimonial-text">C'est mon granola préféré jusqu'à...</p>
+                <p class="author">Shiry</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/d.webp" alt="Qualité premium" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Qualité premium</h3>
+                <p class="testimonial-text">Des ingrédients de première qualité, on sent la différence...</p>
+                <p class="author">ML</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/f.webp" alt="Service client" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Service client</h3>
+                <p class="testimonial-text">L'équipe est très réactive et à l'écoute. Problème résolu...</p>
+                <p class="author">AB</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/I.avif" alt="J'aime ça" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">J'aime ça</h3>
+                <p class="testimonial-text">Belle saveur épicée</p>
+                <p class="author">Ours</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/a.webp" alt="Livraison rapide" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Livraison rapide</h3>
+                <p class="testimonial-text">Commandé lundi, reçu mercredi ! Emballage soigné...</p>
+                <p class="author">TC</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/b.webp" alt="Excellent goût" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Excellent goût</h3>
+                <p class="testimonial-text">Une saveur authentique qui me rappelle...</p>
+                <p class="author">Marie</p>
+            </div>
+
+            <!-- Duplication pour boucle infinie -->
+            <div class="testimonial-card">
+                <img src="image/c.webp" alt="Génial pour le Kéfir" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Génial pour le Kéfir</h3>
+                <p class="testimonial-text">Je l'utilise pour la fabrication de...</p>
+                <p class="author">Liette Labrie</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/d.webp" alt="Amoureux du chocolat" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Amoureux du chocolat</h3>
+                <p class="testimonial-text">Pour des amoureux du chocolat, ç...</p>
+                <p class="author">Chantal Myre</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/f.webp" alt="Si bon" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Si bon</h3>
+                <p class="testimonial-text">C'est mon granola préféré jusqu'à...</p>
+                <p class="author">Shiry</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/i.webp" alt="Qualité premium" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Qualité premium</h3>
+                <p class="testimonial-text">Des ingrédients de première qualité, on sent la différence...</p>
+                <p class="author">ML</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="image/a.webp" alt="Service client" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Service client</h3>
+                <p class="testimonial-text">L'équipe est très réactive et à l'écoute. Problème résolu...</p>
+                <p class="author">AB</p>
+            </div>
+
+
+
+
+            <div class="testimonial-card">
+                <img src="image/d.webp" alt="Excellent goût" class="product-image">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3 class="testimonial-title">Excellent goût</h3>
+                <p class="testimonial-text">Une saveur authentique qui me rappelle...</p>
+                <p class="author">Marie</p>
+            </div>
+
+        </div>
+    </div>
+
+
+  <section class="recipes-section">
+        <!-- Élément géométrique décoratif -->
+        <div class="geometric-shape"></div>
+        
+        <div class="recipes-container">
+            <h2 class="recipes-title">Redonnez de la fraîcheur à vos assiettes !</h2>
+            
+            <div class="recipes-grid">
+                <!-- Recette 1 - Pesto -->
+                <div class="recipe-card">
+                    <img src="image/cccccc.webp" alt="Pesto de chou frisé" class="recipe-image">
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Pesto de chou frisé, basilic et chanvre – Recette d'apéritif</h3>
+                        <a href="#" class="recipe-link">Voir plus</a>
+                    </div>
+                </div>
+
+                <!-- Recette 2 - Rouleaux de printemps -->
+                <div class="recipe-card">
+                    <img src="image/eeee.webp" alt="Rouleaux de printemps" class="recipe-image">
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Rouleaux de printemps mangue-avocat, sauce épicée aux noix de cajou - Recette d'apéritif</h3>
+                        <a href="#" class="recipe-link">Voir plus</a>
+                    </div>
+                </div>
+
+                <!-- Recette 3 - Nachos -->
+                <div class="recipe-card">
+                    <img src="image/iiiiiiiii.webp" alt="Nachos aux haricots noirs" class="recipe-image">
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Nachos aux haricots noirs, maïs et sauce noix de cajou et citron vert - Recette d'apéritif</h3>
+                        <a href="#" class="recipe-link">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bouton voir toutes les recettes -->
+            <div class="view-all-recipes">
+                <button class="view-all-btn">toutes les recettes</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="background-image">
+        <div class="overlay-box">
+            <h2>PRANA compense désormais les émissions de gaz à effet de serre (GES) de toutes ses livraisons en ligne</h2>
+            <p>Nous franchissons une étape décisive dans notre démarche de développement durable. Toutes les émissions de gaz à effet de serre (GES) liées à nos livraisons en ligne seront désormais entièrement compensées.</p>
+            <a href="#">Découvrez comment</a>
+        </div>
+    </div>
+
+
+    <div class="testimonials-section">
+        <h1 class="section-title">Decouvrez- en plus sur Nous</h1>
+    </div>
+
+
+    <div class="section-container">
+        <!-- Section 1 -->
+        <div class="section">
+            <img src="image/noix.webp" alt="Noix et longévité">
+            <h3>Noix et longévité</h3>
+            <p>Consommation de noix et longévité : ce que dit la science. Introduction Les noix ont une mauvaise réputation en Amérique du Nord en raison de leur teneur élevée en matières grasses...</p>
+            <a href="#">En savoir plus</a>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section">
+            <img src="image/riv.webp" alt="Restauration des voies navigables">
+            <h3>Restauration des voies navigables du Québec</h3>
+            <p>Compensation carbone avec Riverbank Carbon™. Chez Prana, notre engagement envers l'impact social et environnemental en tant qu'entreprise certifiée B Corp signifie que...</p>
+            <a href="#">En savoir plus</a>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="section">
+            <img src="image/car.webp" alt="Compensation des émissions de GES">
+            <h3>PRANA compense désormais les émissions de gaz à effet de serre (GES) de toutes ses livraisons en ligne</h3>
+            <p>PRANA franchit une étape décisive dans sa démarche de développement durable. Nous sommes ravis d'annoncer que toutes les émissions de gaz à effet de serre (GES) de nos livraisons en ligne...</p>
+            <a href="#">En savoir plus</a>
+        </div>
+    </div>
+
+  <section class="see-all">
+    <button class="btn-see-all">Voir tous les Vlogs</button>
+  </section>
+
+      <!-- Section "À propos de nous" -->
+    <section class="about-section">
+        <!-- Cercle décoratif -->
+        <div class="decorative-element"></div>
+
+        <!-- Conteneur principal -->
+        <div class="container">
+
+            <!-- Image de présentation -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Couple fondateur de Prana avec des produits végétaux devant un van vintage">
+            </div>
+            
+            <!-- Zone texte -->
+            <div class="content">
+                <h2 class="section-title">à propos de nous</h2>
+                
+                <!-- Paragraphe descriptif -->
+                <p class="description">
+                    Nous sommes Prana, une entreprise familiale dont la mission est de 
+                    créer des aliments délicieux, meilleurs pour vous et pour la planète. 
+                    Tous nos produits sont d'origine végétale et issus de sources 
+                    responsables, car
+                </p>
+                
+                <!-- Bloc mis en avant -->
+                <div class="highlight-section">
+                    <h3 class="highlight-title">Envie de changement</h3>
+                    <p class="highlight-text">
+                        Notre passion pour une alimentation saine et durable guide chacune de nos décisions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <!-- Navigation du haut -->
+    <nav class="top-navigation">
+        <div class="nav-container">
+            <ul class="nav-tabs">
+                <li class="nav-tab active">
+                    <a href="#about">à propos de nous</a>
+                </li>
+                <li class="nav-tab">
+                    <a href="#bcorp">B Corp</a>
+                </li>
+                <li class="nav-tab">
+                    <a href="#impact">impact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Section Newsletter -->
+    <section class="newsletter-section">
+        <!-- Éléments décoratifs -->
+        <div class="decorative-nuts nut-1"></div>
+        <div class="decorative-nuts nut-2"></div>
+        <div class="decorative-nuts nut-3"></div>
+        <div class="decorative-nuts nut-4"></div>
+        <div class="hummingbird"></div>
+        <div class="newsletter-content">
+            <h1 class="newsletter-title">rejoindre la famille</h1>
+            <p class="newsletter-subtitle">
+                Abonnez-vous pour découvrir de nouveaux produits, des ventes<br>
+                privées, de nouvelles recettes & pour économiser 15% sur votre<br>
+                première commande !
+            </p>
+            <form class="newsletter-form">
+                <input
+                    type="email"
+                    class="email-input"
+                    placeholder="Entrez votre email"
+                    required
+                >
+                <button type="submit" class="subscribe-btn">s'abonner</button>
+            </form>
+        </div>
+    </section>
+    <!-- Section du bas - Footer complet -->
+    <section class="bottom-section">
+        <!-- Colibri réel -->
+        <img src="image/colibri-footer.avif" alt="Colibri" class="footer-hummingbird">
+
+        <div class="bottom-container">
+            <!-- Première colonne - À propos avec logo -->
+            <div class="column-about">
+                <h3>envie de changement</h3>
+                <p>Du petit-déjeuner aux envies nocturnes, nous sommes là pour rendre l'alimentation à base de plantes facile, délicieuse et inspirante, avec des bienfaits biologiques et naturels à chaque étape du processus.</p>
+
+                <!-- Réseaux sociaux -->
+                <div class="social-section">
+                    <img src="image/PRANAA.avif" alt="Logo Prana" width="90" height="45"  padding="0" class="footer-logo">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">📌</a>
+                        <a href="#" class="social-icon">▶</a>
+                        <a href="#" class="social-icon">🎵</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Deuxième colonne - Navigation site -->
+            <div class="link-column">
+                <h3>sur notre site</h3>
+                <ul class="link-list">
+                    <li><a href="#">Tout acheter</a></li>
+                    <li><a href="#">Abonnement</a></li>
+                    <li><a href="#">Recettes</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                </ul>
+            </div>
+            <!-- Troisième colonne - Services -->
+            <div class="link-column">
+                <h3></h3>
+                <ul class="link-list" style="margin-top: 47px;">
+                    <li><a href="#">Programme d'affiliation</a></li>
+                    <li><a href="#">politique de confidentialité</a></li>
+                    <li><a href="#">Club d'achat</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Politique de remboursement</a></li>
+                </ul>
+            </div>
+            <!-- Quatrième colonne - Newsletter -->
+            <div class="newsletter-column">
+                <h3>bulletin</h3>
+                <p>Abonnez-vous pour recevoir des mises à jour, accéder à des offres exclusives et plus encore.</p>
+
+                <form class="footer-newsletter-form">
+                    <input
+                        type="email"
+                        class="footer-email-input"
+                        placeholder="Entrez votre email"
+                        required
+                    >
+                    <button type="submit" class="footer-subscribe-btn">s'abonner</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Section copyright -->
+    <section class="copyright-section">
+        <div class="copyright-container">
+            <div class="language-selector">
+                <span>ANGLAIS ▼</span>
+            </div>
+
+            <div class="copyright-text">
+                © prana bio
+            </div>
+
+            <div class="copyright-links">
+                <a href="#">Propulsé par Shopify</a>
+            </div>
+        </div>
+    </section>
+
+       <script>
+        class InstagramCarousel {
+            constructor() {
+                this.wrapper = document.getElementById('carouselWrapper');
+                this.slides = document.querySelectorAll('.carousel-slide');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
+                this.indicators = document.querySelectorAll('.indicator');
+                
+                this.currentIndex = 0;
+                this.slidesToShow = this.getSlidesToShow();
+                this.maxIndex = Math.max(0, this.slides.length - this.slidesToShow);
+                
+                this.init();
+                this.setupEventListeners();
+                this.updateView();
+            }
+
+            getSlidesToShow() {
+                const width = window.innerWidth;
+                if (width <= 480) return 2;
+                if (width <= 768) return 3;
+                if (width <= 1024) return 4;
+                return 5;
+            }
+
+            init() {
+                // Initialiser les vraies vidéos
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    // Lecture automatique au survol
+                    video.addEventListener('mouseenter', () => {
+                        video.play();
+                    });
+                    
+                    video.addEventListener('mouseleave', () => {
+                        video.pause();
+                    });
+                    
+                    // Gestion des erreurs de chargement
+                    video.addEventListener('error', () => {
+                        console.log('Erreur de chargement de la vidéo:', video.src);
+                        video.style.background = '#f0f0f0';
+                    });
+                });
+            }
+
+            setupEventListeners() {
+                this.prevBtn.addEventListener('click', () => this.prevSlide());
+                this.nextBtn.addEventListener('click', () => this.nextSlide());
+                
+                this.indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', () => this.goToSlide(index));
+                });
+
+                window.addEventListener('resize', () => {
+                    this.slidesToShow = this.getSlidesToShow();
+                    this.maxIndex = Math.max(0, this.slides.length - this.slidesToShow);
+                    this.currentIndex = Math.min(this.currentIndex, this.maxIndex);
+                    this.updateView();
+                });
+
+                // Auto-play désactivé - seulement manuel
+            }
+
+            prevSlide() {
+                if (this.currentIndex > 0) {
+                    this.currentIndex--;
+                    this.updateView();
+                }
+            }
+
+            nextSlide() {
+                if (this.currentIndex < this.maxIndex) {
+                    this.currentIndex++;
+                } else {
+                    this.currentIndex = 0; // Retour au début
+                }
+                this.updateView();
+            }
+
+            goToSlide(index) {
+                const maxIndicatorIndex = Math.min(index, this.maxIndex);
+                this.currentIndex = maxIndicatorIndex;
+                this.updateView();
+            }
+
+            updateView() {
+                // Calculer le décalage
+                const slideWidth = 100 / this.slidesToShow;
+                const offset = -this.currentIndex * slideWidth;
+                
+                this.wrapper.style.transform = `translateX(${offset}%)`;
+                
+                // Mettre à jour les indicateurs
+                this.indicators.forEach((indicator, index) => {
+                    indicator.classList.toggle('active', index === Math.floor(this.currentIndex * this.indicators.length / (this.maxIndex + 1)));
+                });
+                
+                // Mettre à jour la visibilité des boutons
+                this.prevBtn.style.opacity = this.currentIndex === 0 ? '0.5' : '1';
+                this.nextBtn.style.opacity = this.currentIndex === this.maxIndex ? '0.5' : '1';
+            }
+        }
+
+        // Initialiser le carrousel au chargement de la page
+        document.addEventListener('DOMContentLoaded', () => {
+            new InstagramCarousel();
+        });
+
+
+        // Gestion des onglets de navigation
+        document.querySelectorAll('.nav-tab a').forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Retirer la classe active de tous les onglets
+                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+
+                // Ajouter la classe active à l'onglet cliqué
+                this.parentElement.classList.add('active');
+            });
+        });
+        // Animation du formulaire footer
+        document.querySelector('.footer-newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = document.querySelector('.footer-email-input').value;
+            if (email) {
+                const btn = document.querySelector('.footer-subscribe-btn');
+                const originalText = btn.textContent;
+
+                btn.textContent = 'Inscription...';
+                btn.style.background = '#28a745';
+
+                setTimeout(() => {
+                    btn.textContent = 'Merci !';
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.style.background = '';
+                        document.querySelector('.footer-email-input').value = '';
+                    }, 2000);
+                }, 1500);
+            }
+        });
+        // Animation du formulaire newsletter principal
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = document.querySelector('.email-input').value;
+            if (email) {
+                const btn = document.querySelector('.subscribe-btn');
+                const originalText = btn.textContent;
+
+                btn.textContent = 'Inscription...';
+                btn.style.background = '#28a745';
+
+                setTimeout(() => {
+                    btn.textContent = 'Merci !';
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.style.background = '';
+                        document.querySelector('.email-input').value = '';
+                    }, 2000);
+                }, 1500);
+            }
+        });
+        // Animation des éléments au scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        // Observer les éléments
+        document.querySelectorAll('.bottom-column').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
